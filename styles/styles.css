@@ -1,0 +1,51 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+     box-sizing: border-box;
+     font-size: 62.5%; /** 1rem = 10px **/
+   }
+   *, *:before, *:after {
+     box-sizing: inherit;
+     padding: 0;
+     margin: 0;
+   }
+
+   body {
+        background: #E9ECF4;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.6rem;
+        line-height: 2;
+   }
+/* Card Section Style */
+   .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  .container-card {
+    padding: 2px 16px;
+  }
+
+
+  .container {
+       background: #fff;
+       width: 90%;
+       max-width: 1000px;
+       margin: auto;
+       display: grid;
+       grid-template-areas: 
+       "header"
+       "section-trabajos"
+       "section-precios"
+       "section-testimonios"
+       "footer"
+       ;
+       gap: 2rem;
+  }
+
+  .container .header{
+    background: #88B3D7;
+  }
+
+  .container .section-trabajos{
+    background: #88B3D7
+  }
