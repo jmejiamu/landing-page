@@ -38,6 +38,37 @@ html {
     color: #fff;
   }
 
+  /* Nav bar  */
+  .nav-style{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #403D3D;
+  }
+  .menu{
+    float: right;
+  }
+  .menu a {
+    display: block;
+    color: #fff;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .menu a:hover:not(.active){
+    background-color: #111;
+  }
+   .icon-style{
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px; 
+    background-color: #4CAF50;
+    
+   }
+   
+
   .container {
        background: #fff;
        width: 90%;
