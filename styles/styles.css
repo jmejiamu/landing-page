@@ -27,11 +27,13 @@ html {
   }
   .container-card {
     padding: 2px 16px;
+    background-color: #fff;
   }
-  .card-container{
+  .card-main-container{
     display: flex;
   }
   .text-title{
+    padding-top: 20px;
     text-align: center;
     color: #fff;
   }
@@ -49,7 +51,7 @@ html {
        "section-testimonios"
        "footer"
        ;
-       gap: 2rem;
+       /* gap: 2rem; */
   }
 
   .container .header{
@@ -58,4 +60,5 @@ html {
 
   .container .section-trabajos{
     background: #403D3D;
+    margin-top: 0;
   }
