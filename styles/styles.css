@@ -2,6 +2,8 @@
 html {
      box-sizing: border-box;
      font-size: 62.5%; /** 1rem = 10px **/
+     margin: 0px;
+     padding: 0px;
    }
    *, *:before, *:after {
      box-sizing: inherit;
@@ -20,11 +22,19 @@ html {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 40%;
+    margin: 4rem;
+    
   }
   .container-card {
     padding: 2px 16px;
   }
-
+  .card-container{
+    display: flex;
+  }
+  .text-title{
+    text-align: center;
+    color: #fff;
+  }
 
   .container {
        background: #fff;
@@ -47,5 +57,5 @@ html {
   }
 
   .container .section-trabajos{
-    background: #88B3D7
+    background: #403D3D;
   }
