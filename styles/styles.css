@@ -16,6 +16,14 @@ html {
         font-family: 'Roboto', sans-serif;
         font-size: 1.6rem;
         line-height: 2;
+        height: 100%;
+   }
+   .header__logo{
+     background-image: url("../assets/header-image.jpg");
+     height: 50%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
    }
 /* Card Section Style */
    .card {
@@ -25,6 +33,7 @@ html {
     margin: 4rem;
     
   }
+
   .container-card {
     padding: 2px 16px;
     background-color: #fff;
