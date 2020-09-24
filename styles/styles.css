@@ -20,7 +20,7 @@ html {
    }
    .header__logo{
      background-image: url("../assets/header-image.jpg");
-     height: 50%;
+     height: 100%;
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -41,6 +41,7 @@ html {
   .card-main-container{
     display: flex;
   }
+
   .text-title{
     padding-top: 20px;
     text-align: center;
@@ -102,3 +103,19 @@ html {
     background: #403D3D;
     margin-top: 0;
   }
+   .precio-tab {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin: 4rem;
+    height: 300px;
+    padding: 40px;
+  }
+  .main-precio-tab{
+    display: flex;
+  }
+
+.title-precio{
+  text-align: center;
+  margin-top: 15px;
+}
